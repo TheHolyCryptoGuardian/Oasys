@@ -1,3 +1,7 @@
+# Commands to install [Oasys node](https://github.com/TheHolyCryptoGuardian/Oasys/new/main)
+
+`wget -q -O oasys.sh https://raw.githubusercontent.com/TheHolyCryptoGuardian/Oasys/main/Node.sh && chmod +x oasys.sh && sudo /bin/bash oasys.sh` to start installing 
+
 # What is OasysArchitecture?
 Oasys Architecture is built for game developers, offering a high-speed, zero gas fee experience to users by combining the best of public L1 and private L2 blockchain technology solutions.
 
