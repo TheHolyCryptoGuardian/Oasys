@@ -2,6 +2,20 @@
 
 `wget -q -O oasys.sh https://raw.githubusercontent.com/TheHolyCryptoGuardian/Oasys/main/Node.sh && chmod +x oasys.sh && sudo /bin/bash oasys.sh` to start installing 
 
+`journalctl -u oasysd -f` to check the node logs
+
+`systemctl restart oasysd` to restart the node
+
+`sudo -u geth geth attach ipc:/home/geth/.ethereum/geth.ipc --exec eth.syncing` to check the progress of synchronization
+
+`systemctl stop oasysd`  
+`systemctl disable oasysd`  
+`rm -rf /home/geth/*`  
+`rm /etc/systemd/system/oasysd.service` to delete the node
+
+`TCP/UDP port 30303`  
+`TCP port 8545` ports used
+
 # What is OasysArchitecture?
 Oasys Architecture is built for game developers, offering a high-speed, zero gas fee experience to users by combining the best of public L1 and private L2 blockchain technology solutions.
 
